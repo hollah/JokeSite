@@ -6,21 +6,31 @@
 		<link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
 		<iframe data-aa="1450477" src="//acceptable.a-ads.com/1450477" scrolling="no" style="border:0px; padding:0; width:100%; height:5rem; overflow:hidden" allowtransparency="true"></iframe>
 
+		<audio src="/content/jeff.opus" autoplay>
+			Your browser does not support the audio tag.
+		</audio>
+		
 		<style>
-			video {
-			background-color: black;
-				min-width: 100%;
+			.ViewContent {
+				background-image: url("/content/jeff.gif");
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+				
+				border: 0;
+				width: 100%;
 				max-width: 100%;
-				min-height: 80vh;
-				max-height: 80vh;
+				height: 85vh;
+				max-height: 85vh%;
 			}
+			
 			div {
 				padding: 3;
 			}
 		</style>
 	</head>
 	<body>
-		<div></div>
+		<div><iframe class="ViewContent"></iframe></div>
 		<video loop autoplay>
 			<source src="/content/jeff.mp4" type="video/mp4"> <!--Website Server Source (YouTube is too quiet)-->
 			Your browser doesn't support the video tag.
